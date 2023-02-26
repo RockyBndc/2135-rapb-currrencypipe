@@ -2,7 +2,7 @@
   <div class="container justify-content-center text-center">
     <div>
       <br /><br />
-      <h2>Currency Pipe</h2>
+      <h1>Currency Pipe</h1>
       <br />
       <input [(ngModel)]="myPrice" placeholder="Enter the price" />
       <br /><br /><br />
@@ -23,24 +23,24 @@
     </div>
     <div class="row">
       <div class="col mx-3 my-5 border">
-        <br />{{ myPrice | currency: 'CAD':'symbol' }}<br />
+        {{ myPrice | currency: 'CAD':'symbol' }}
       </div>
       <div class="col mx-3 my-5 border">
-        <br />{{ myPrice | currency: 'INR':'Indian Rupee' }}<br />
+        {{ myPrice | currency: 'INR':'Indian Rupee' }}
       </div>
       <div class="col mx-3 my-5 border">
-        <br />{{ myPrice | currency: 'EUR':'code' }}<br />
+        {{ myPrice | currency: 'EUR':'code' }}
       </div>
     </div>
     <div class="row">
       <div class="col mx-3 my-5 border">
-        <br />{{ myPrice | currency: 'CAD':'symbol':'3.1-1' }}<br />
+        {{ myPrice | currency: 'CAD':'symbol':'3.1-1' }}
       </div>
       <div class="col mx-3 my-5 border">
-        <br />{{ myPrice | currency: 'INR':'symbol':'3.0' }}<br />
+        {{ myPrice | currency: 'INR':'symbol':'3.0' }}
       </div>
       <div class="col mx-3 my-5 border">
-        <br />{{ myPrice | currency: 'EUR':'symbol':'4.2-5' }}<br />
+        {{ myPrice | currency: 'EUR':'symbol':'4.2-5' }}
       </div>
     </div>
   </div>

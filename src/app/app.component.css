@@ -1,7 +1,7 @@
-.datePipe {
-  background: url('./currency-bg.jpg') no-repeat center center fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.currencyPipe {
+  background: url('./currency-bg.jpg') repeat scroll center center/cover;
+  width: 100%;
+  min-height: 100vh;
 }
+
 
